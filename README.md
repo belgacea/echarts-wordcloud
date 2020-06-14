@@ -53,6 +53,8 @@ chart.setOption({
         // The shape option will continue to apply as the shape of the cloud to grow.
 
         maskImage: maskImage,
+        drawMask: true,
+        maskColor: 'rgba(255,0,0,0.3)',
 
         // Folllowing left/top/width/height/right/bottom are used for positioning the word cloud
         // Default to be put in the center and has 75% x 80% size.

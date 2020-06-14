@@ -118,6 +118,9 @@ echarts.registerLayout(function (ecModel, api) {
 
             clearCanvas: !maskImage,
 
+            drawMask: seriesModel.get('drawMask'),
+            maskColor: seriesModel.get('maskColor'),
+
             rotateRatio: 1,
 
             rotationStep: seriesModel.get('rotationStep') * DEGREE_TO_RAD,
