@@ -24,7 +24,7 @@ echarts.extendSeriesModel({
 
         maskImage: null,
         drawMask: false,
-        maskColor: 'rgba(255,0,0,0.3)',
+        maskColor: 'rgba(0,0,0,0.3)',
 
         // Shape can be 'circle', 'cardioid', 'diamond', 'triangle-forward', 'triangle', 'pentagon', 'star'
         shape: 'circle',

@@ -190,7 +190,7 @@ if (!window.clearImmediate) {
       origin: null,
 
       drawMask: false,
-      maskColor: 'rgba(255,0,0,0.3)',
+      maskColor: 'rgba(0,0,0,0.3)',
       maskGapWidth: 0.3,
 
       wait: 0,

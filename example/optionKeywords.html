@@ -1,7 +1,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <script src='https://cdn.bootcss.com/echarts/3.7.2/echarts.simple.js'></script>
+<!--        <script src='https://cdn.bootcss.com/echarts/3.7.2/echarts.simple.js'></script>-->
+        <script src='../node_modules/echarts/dist/echarts.js'></script>
         <script src='../dist/echarts-wordcloud.js'></script>
     </head>
     <body>
@@ -375,6 +376,7 @@
                     gridSize: 2,
                     shape: 'pentagon',
                     maskImage: maskImage,
+                    drawMask: true,
                     drawOutOfBound: false,
                     textStyle: {
                         normal: {
@@ -402,6 +404,8 @@
             }
 
             maskImage.src = './logo.png';
+            // maskImage.crossOrigin = "Anonymous";
+            // maskImage.src = 'https://raw.githubusercontent.com/ecomfe/echarts-wordcloud/master/example/logo.png';
 
             window.onresize = function () {
                 chart.resize();

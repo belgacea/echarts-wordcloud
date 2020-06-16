@@ -165,7 +165,7 @@ echarts.registerLayout(function (ecModel, api) {
     });
 });
 
-echarts.registerPreprocessor(function (option) {
+    echarts.registerPreprocessor(function (option) {
     var series = (option || {}).series;
     !echarts.util.isArray(series) && (series = series ? [series] : []);
 
